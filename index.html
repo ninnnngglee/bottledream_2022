@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" class="<link href="css/bootstrap.min.css" rel="stylesheet" />">
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - 夢境防腐中_boostrap</title>
+   <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div>
+  <button class="b_show" href="#" onclick="show()">顯示圖片</button>
+</div>
+<div class="container_1">
+  <div class="popup-img"><span>&times</span>
+    <canvas id="canvas2" width="840" height="600"></canvas>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-7">
+      <div class="col-3">
+        <div class="scenes">
+           &#x5834;&#x666F;
+          <div>
+            <button class="b1" onclick="myFunction()">&#x8A8D;&#x5F97;</button>
+          </div>
+          <div>
+            <button class="b2" onclick="myFunction2()">&#x4E0D;&#x8A8D;&#x5F97;</button>
+          </div>
+          <div>
+            <button class="b3" onclick="myFunction3()">&#x81EA;&#x7136;</button>
+          </div>
+          <div>
+            <button class="b4" onclick="myFunction4()">&#x9ED1;&#x767D;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container2">
+  <div class="row">
+    <div class="col-sm-7">
+      <div class="col-3">
+        <div class="characters">&#x4EBA;&#x7269;
+          <div>
+            <button class="button1" onclick="cFunction()">重要他人</button>
+          </div>
+          <div>
+            <button class="button2" onclick="cFunction2()">認識認得、非重要他人</button>
+          </div>
+          <div>
+            <button class="button3" onclick="cFunction3()">不認識也不認得</button>
+          </div>
+          <div>
+            <button class="button4" onclick="cFunction4()">當事人</button>
+          </div>
+          <div>
+            <button class="button5" onclick="cFunction5()">旁觀者</button>
+          </div>
+          <div>
+            <button class="button6" onclick="cFunction6()">無人</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container3">
+  <div class="row">
+    <div class="col-sm-7">
+      <div class="col-3">
+        <div class="emotions">&#x60C5;&#x7DD2;
+          <div>
+            <button class="bu1" onclick="eFunction()">&#x60B2;&#x50B7;</button>
+          </div>
+          <div>
+            <button class="bu2" onclick="eFunction1()">&#x5FEB;&#x6A02;</button>
+          </div>
+          <div>
+            <button class="bu3" onclick="eFunction2()">&#x6050;&#x6016;</button>
+          </div>
+          <div>
+            <button class="bu4" onclick="eFunction3()">&#x8352;&#x8B2C;</button>
+          </div>
+          <div>
+            <button class="bu5" onclick="eFunction4()">&#x61A4;&#x6012;</button>
+          </div>
+          <div>
+            <button class="bu6" onclick="eFunction5()">&#x8208;&#x596E;</button>
+          </div>
+          <div>
+            <button class="bu7" onclick="e1Function6()">&#x5B64;&#x55AE;</button>
+          </div>
+          <div>
+            <button class="bu8" onclick="e1Function7()">&#x5E78;&#x798F;</button>
+          </div>
+          <div>
+            <button class="bu9" onclick="e1Function8()">&#x7121;</button>
+          </div>
+          <div>
+            <button class="bu10" onclick="e1Function9()">&#x6DD2;&#x6158;</button>
+          </div>
+          <div>
+            <button class="bu11" onclick="e1Function10()">&#x6182;&#x9B31;</button>
+          </div>
+          <div>
+            <button class="bu12" onclick="e1Function11()">&#x7126;&#x6025;</button>
+          </div>
+          <div>
+            <button class="bu13" onclick="e1Function12()">&#x53AD;&#x60E1;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container4">
+  <div class="row">
+    <div class="col-sm-7">
+      <div class="col-3">
+        <div class="paragraph">&#x6BB5;&#x843D;
+          <div>
+            <button class="b-1" onclick="pFunction()">&#x56E0;&#x679C;&#x95DC;&#x4FC2;</button>
+          </div>
+          <div>
+            <button class="b-2" onclick="pFunction1()">&#x5143;&#x7D20;&#x904E;&#x591A;</button>
+          </div>
+          <div>
+            <button class="b-3" onclick="pFunction2()">&#x9577;&#x7BC7;&#x5287;&#x60C5;</button>
+          </div>
+          <div>
+            <button class="b-4" onclick="pFunction3()">&#x5206;&#x6BB5;&#x843D;</button>
+          </div>
+          <div>
+            <button class="b-5" onclick="pFunction4()">&#x4E0D;&#x540C;&#x665A;&#x4E0A;&#xFF0C;&#x540C;&#x500B;&#x5922;&#x5883;</button>
+          </div>
+          <div>
+            <button class="b-6" onclick="pFunction5()">&#x540C;&#x500B;&#x665A;&#x4E0A;&#xFF0C;&#x591A;&#x500B;&#x5922;&#x5883;</button>
+          </div>
+          <div>
+            <button class="b-7" onclick="pFunction6()">&#x5922;&#x4E2D;&#x5922;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="canvas">
+  <div class="col-sm-5"><img src="https://i.imgur.com/dfQS3h3.jpg" title="source: imgur.com" width="840" height="600"/></div>
+</div>
+<div class="s-content">
+  <div id="認得"><img src="https://i.imgur.com/bOvVkaZ.jpg" width="130" height="190"/></div>
+  <div id="不認得"><img src="https://i.imgur.com/0r6tSZW.png" width="130" height="190"/></div>
+  <div id="自然"><img src="https://i.imgur.com/0r6tSZW.png" width="130" height="190"/></div>
+  <div id="黑白"><img src="https://i.imgur.com/0r6tSZW.png" width="130" height="190"/></div>
+</div>
+<div class="c-content">
+  <div id="重要他人"><img src="https://i.imgur.com/0r6tSZW.png" width="130" height="190"/></div>
+  <div id="認識、認得、非重要他人"><img src="https://i.imgur.com/0r6tSZW.png" width="130" height="190"/></div>
+  <div id="不認識也不認得"><img src="https://i.imgur.com/Zgm2Cwa.png" width="130" height="190"/></div>
+  <div id="當事人"><img src="https://i.imgur.com/0r6tSZW.png" width="130" height="190"/></div>
+  <div id="旁觀者"><img src="https://i.imgur.com/0r6tSZW.png" width="130" height="190"/></div>
+  <div id="無人"><img src="https://i.imgur.com/0r6tSZW.png" width="130" height="190"/></div>
+</div>
+<div class="e-content">
+  <div id="悲傷"><img src="https://i.imgur.com/mCrEfTf.jpg" width="130" height="190"/></div>
+  <div id="快樂"><img src="https://i.imgur.com/xiAqXif.jpg" width="130" height="190"/></div>
+  <div id="恐怖"><img src="https://i.imgur.com/LBZAhk1.jpg" width="130" height="190"/></div>
+  <div id="荒謬"><img src="https://i.imgur.com/q2Nuu3m.png" width="130" height="190"/></div>
+  <div id="憤怒"><img src="https://i.imgur.com/BtInK11.png" width="130" height="190"/></div>
+  <div id="興奮"><img src="https://i.imgur.com/E0SEedG.png" width="130" height="190"/></div>
+  <div id="孤單"><img src="https://i.imgur.com/BtpO3vw.jpg" width="130" height="190"/></div>
+  <div id="幸福"><img src="https://i.imgur.com/jxqEjiZ.jpg" width="130" height="190"/></div>
+  <div id="無"><img src="https://i.imgur.com/rP4IaSz.jpg" width="130" height="190"/></div>
+  <div id="淒慘"><img src="https://i.imgur.com/0r6tSZW.png" width="130" height="190"/></div>
+  <div id="憂鬱"><img src="https://i.imgur.com/waRdYhO.jpg" width="130" height="190"/></div>
+  <div id="焦急"><img src="https://i.imgur.com/74lqBIz.jpg" width="130" height="190"/></div>
+  <div id="厭惡"><img src="https://i.imgur.com/pbnazQ3.png" width="130" height="190"/></div>
+</div>
+<div class="p-content">
+  <div id="因果關係"><img src="https://i.imgur.com/MIDPSVk.jpg" width="130" height="190"/></div>
+  <div id="元素過多"><img src="https://i.imgur.com/nVfIw05.jpg" width="130" height="190"/></div>
+  <div id="長篇劇情"><img src="https://i.imgur.com/8wP5QWY.jpg" width="130" height="190"/></div>
+  <div id="分段落"><img src="https://i.imgur.com/kZyjqt2.jpg" width="130" height="190"/></div>
+  <div id="不同晚上同個夢境"><img src="https://i.imgur.com/b4ucyR8.jpg" width="130" height="190"/></div>
+  <div id="同個晚上多個夢境"><img src="https://i.imgur.com/XCUI9Ik.jpg" width="130" height="190"/></div>
+  <div id="夢中夢"><img src="https://i.imgur.com/kaQroGn.jpg" width="130" height="190"/></div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,236 @@
+*{
+  font-family: 微軟正黑體;
+  color: #eee;
+ 
+}
+
+.b_show{
+    margin-left: 700px;
+    width: 150px;
+    height: 40px;
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 30px;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    position: relative;
+    transition: all .3s linear;
+    color: #eee;
+    
+}
+
+
+body{
+  height:1000px;
+  background-image: url("https://i.imgur.com/rT9qLTS.png");
+  background-size: cover;
+  
+}
+
+.scenes{
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  border: 1px solid;
+  border-top:rgba(0,0,0,0);
+  border-bottom:rgba(0,0,0,0);
+  top: 100px;
+  left: 80px;
+  height: 800px;
+  width: 150px;
+  padding: 5px;
+  
+}
+ 
+
+.characters{
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  // display: inline-block;
+  border: 1px solid;
+  border-top:rgba(0,0,0,0);
+  border-bottom:rgba(0,0,0,0);
+  top: 100px;
+  left: 250px;
+  height: 800px;
+  width: 150px;
+  padding: 5px;
+/*   background-color: #eee; */
+  
+}
+.emotions{
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+/*   // display: inline-block; */
+  border: 1px solid;
+  border-top:rgba(0,0,0,0);
+  border-bottom:rgba(0,0,0,0);
+  top: 100px;
+  left: 430px;
+  height: 800px;
+  width: 150px;
+  padding: 5px;
+/*   background-color: #eee; */
+}
+
+.paragraph{
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+/*   // display: inline-block; */
+  border: 1px solid;
+  border-top:rgba(0,0,0,0);
+  border-bottom:rgba(0,0,0,0);
+  top: 100px;
+  left: 610px;
+  height: 800px;
+  width: 150px;
+  padding: 5px;
+/*   background-color: #eee; */
+}
+
+.b1, .b2, .b3, .b4, .button1, .button2, .button3, .button4, .button5, .button6, .bu1,.bu2,.bu3,.bu4,.bu5,.bu6,.bu7,.bu8,.bu9,.bu10,.bu11,.bu12,.bu13,.bu14,.b-1,.b-2,.b-3,.b-4,.b-5,.b-6,.b-7{
+    width: 140px;
+    height: 40px;
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 30px;
+    color: #000;
+    background-color: transparent;
+    
+    border: 1px solid #eee;
+    border-radius: 10px;
+    position: relative;
+    transition: all .3s linear;
+    color: #eee
+    
+}
+
+.b1>p, .b2>p, .b3>p, .b4>p, .button1>p, .button2>p, .button3>p, .button4>p, .button5>p, .button6>p, .bu1>p,.bu2>p,.bu3>p,.bu4>p,.bu5>p,.bu6>p,.bu7>p,.bu8>p,.bu9>p,.bu10>p,.bu11>p,.bu12>p,.bu13>p,.bu14>p,.b-1>p,.b-2>p,.b-3>p,.b-4>p,.b-5>p,.b-6>p,.b-7>p{
+  position: relative;
+  z-index: 1;
+}
+
+
+.b1::before, .b2::before, .b3::before, .b4::before, .button1::before, .button2::before, .button3::before, .button4::before, .button5::before, .button6::before, .bu1::before,.bu2::before,.bu3::before,.bu4::before,.bu5::before,.bu6::before,.bu7::before,.bu8::before,.bu9::before,.bu10::before,.bu11::before,.bu12::before,.bu13::before,.bu14::before,.b-1::before,.b-2::before,.b-3::before,.b-4::before,.b-5::before,.b-6::before,.b-7::before{
+    content: "";
+    width: 0%;
+    height: 0%;
+    display: block;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+
+.b1:hover, .b2:hover, .b3:hover, .b4:hover, .button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button6:hover, .bu1:hover,.bu2:hover,.bu3:hover,.bu4:hover,.bu5:hover,.bu6:hover,.bu7:hover,.bu8:hover,.bu9:hover,.bu10:hover,.bu11:hover,.bu12:hover,.bu13:hover,.bu14:hover,.b-1:hover,.b-2:hover,.b-3:hover,.b-4:hover,.b-5:hover,.b-6:hover,.b-7:hover{
+ color: #aaa;
+}
+
+/* .b1:hover::before, .b2:hover::before, .b3:hover::before, .b4:hover::before, .button1:hover::before, .button2:hover::before, .button3:hover::before, .button4:hover::before, .button5:hover::before, .button6:hover::before, .bu1:hover::before,.bu2:hover::before,.bu3:hover::before,.bu4:hover::before,.bu5:hover::before,.bu6:hover::before,.bu7:hover::before,.bu8:hover::before,.bu9:hover::before,.bu10:hover::before,.bu11:hover::before,.bu12:hover::before,.bu13:hover::before,.bu14:hover::before,.b-1:hover::before,.b-2:hover::before,.b-3:hover::before,.b-4:hover::before,.b-5:hover::before,.b-6:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  
+} */
+
+.canvas {
+/*   background-image:url('https://i.imgur.com/kTwIgSG.jpg');　//先給你想要放在背景的圖片路徑或網址 */ 
+/* 　background-attachment:;　//背景圖片位置固定 */
+  position: absolute;
+/*   border-style: dotted; */
+  left: 800px;
+  top: 100px;
+  padding: 5px;
+
+} 
+
+
+
+#認得, #不認得,#自然,#黑白 {
+  /*下面是移動圖片位置*/
+  position: absolute;
+	left: 965px;
+	top: 413px;
+  display: none;
+}
+
+
+
+#重要他人, #認識、認得、非重要他人,#不認識也不認得,#當事人, #旁觀者,#無人{
+  /*下面是移動圖片位置*/
+  position: absolute;
+	left: 1040px;
+	top: 198px;
+  display: none;
+}
+
+
+#因果關係,#元素過多,#長篇劇情,#分段落, #不同晚上同個夢境,#同個晚上多個夢境,#夢中夢{
+  /*下面是移動圖片位置*/
+  position: absolute;
+	left: 1202px;
+	top: 198px;
+  display: none;
+}
+
+#悲傷, #快樂,#恐怖,#荒謬,#憤怒,#興奮{
+  /*下面是移動圖片位置*/
+  position: absolute;
+	left: 1124px;
+	top: 413px;
+  display: none;
+}
+
+
+#孤單,#幸福,#無,#淒慘,#憂鬱,#焦急,#厭惡{
+  /*下面是移動圖片位置*/
+  position: absolute;
+	left: 1285px;
+	top: 413px;
+  display: none;
+}
+
+/* .e-content,.c-content,.s-content,.p-content{
+  position:absolute;
+  width:100px;
+  height:150px;
+} */
+
+
+
+.container_1 .popup-img{
+  position: fixed;
+  top:0; left:0;
+  background:rgba(0,0,0,.9);
+  height: 100%;
+  weight: 2000px;
+  z-index: 100;
+  display: none;
+}
+
+.container_1 .popup-img .span{
+  position: absolute;
+  top: 10px; right:50px;
+  font-size: 90px;
+  font-weight: bolder;
+  color: #eee;
+  cursor: pointer;
+  z-index: 100;
+ 
+} 
+
+.container_1 .popup-img .canvas2{
+  position: absolute;
+  top: 100%; left:100%;
+  transform: translate(-50%, -50%);
+}
