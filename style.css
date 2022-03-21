@@ -1,10 +1,9 @@
 *{
   font-family: 微軟正黑體;
   color: #eee;
-  
-  
-  
+ 
 }
+
 .b_show{
     margin-left: 700px;
     width: 150px;
@@ -96,7 +95,7 @@ body{
 }
 
 .b1, .b2, .b3, .b4, .button1, .button2, .button3, .button4, .button5, .button6, .bu1,.bu2,.bu3,.bu4,.bu5,.bu6,.bu7,.bu8,.bu9,.bu10,.bu11,.bu12,.bu13,.bu14,.b-1,.b-2,.b-3,.b-4,.b-5,.b-6,.b-7{
-    width: 150px;
+    width: 140px;
     height: 40px;
     font-size: 10px;
     text-align: center;
@@ -152,7 +151,7 @@ body{
   left: 800px;
   top: 100px;
   padding: 5px;
-  background-color: #eee;
+
 } 
 
 
@@ -160,8 +159,8 @@ body{
 #認得, #不認得,#自然,#黑白 {
   /*下面是移動圖片位置*/
   position: absolute;
-	left: 850px;
-	top: 390px;
+	left: 965px;
+	top: 413px;
   display: none;
 }
 
@@ -170,8 +169,8 @@ body{
 #重要他人, #認識、認得、非重要他人,#不認識也不認得,#當事人, #旁觀者,#無人{
   /*下面是移動圖片位置*/
   position: absolute;
-	left: 910px;
-	top: 140px;
+	left: 1040px;
+	top: 198px;
   display: none;
 }
 
@@ -179,16 +178,16 @@ body{
 #因果關係,#元素過多,#長篇劇情,#分段落, #不同晚上同個夢境,#同個晚上多個夢境,#夢中夢{
   /*下面是移動圖片位置*/
   position: absolute;
-	left: 1090px;
-	top: 140px;
+	left: 1202px;
+	top: 198px;
   display: none;
 }
 
 #悲傷, #快樂,#恐怖,#荒謬,#憤怒,#興奮{
   /*下面是移動圖片位置*/
   position: absolute;
-	left: 1010px;
-	top: 330px;
+	left: 1124px;
+	top: 413px;
   display: none;
 }
 
@@ -196,8 +195,8 @@ body{
 #孤單,#幸福,#無,#淒慘,#憂鬱,#焦急,#厭惡{
   /*下面是移動圖片位置*/
   position: absolute;
-	left: 1190px;
-	top: 310px;
+	left: 1285px;
+	top: 413px;
   display: none;
 }
 
@@ -210,21 +209,21 @@ body{
 
 
 .container_1 .popup-img{
-  position: fixed;
+  position: absolute;
   top:0; left:0;
-  background:rgba(0,0,0,.9);
-  height: 100%;
-  weight: 100%;
+  background:rgba(0,0,0,0.9);
+  height: 2000px;
+  width: 2000px;
   z-index: 100;
   display: none;
 }
 
 .container_1 .popup-img .span{
-  position: absolute;
-  top: 10px; right:30px;
-  font-size: 70px;
+  position: fixed;
+  top: 10px; right:50px;
+  font-size: 90px;
   font-weight: bolder;
-  color:#eee;
+  color: #eee;
   cursor: pointer;
   z-index: 100;
  
