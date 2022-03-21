@@ -8,7 +8,7 @@ const show = () => {
   
   
   var bg = new Image(); 
-  bg.src = "https://i.imgur.com/dfQS3h3.jpg";
+  bg.src = "https://i.imgur.com/kTwIgSG.jpg";
   
   var img1 = new Image(); //場景 
   //寫法就是用if判斷圖片的ID是不是被設成block
@@ -84,15 +84,15 @@ const show = () => {
   
   var canvas = document.getElementById('canvas2');
   var context = canvas.getContext('2d');
-  canvas.width = 840;
-  canvas.height = 600;
+  canvas.width = 600;
+  canvas.height = 800;
   context.globalAlpha = 1.0;
-  context.drawImage(bg, 0, 0,840,600); //這行是背景
-  context.drawImage(img1, 164, 311,130,190); //這行是場景
-  context.drawImage(img2, 239, 96,130,190); //這行是人物
-  context.drawImage(img3, 323, 311,130,190); //這行是情緒1
-  context.drawImage(img4, 484, 311,130,190); //這行是情緒2
-  context.drawImage(img5, 401, 96,130,190); //這行是段落
+  context.drawImage(bg, 0, 0,600,800); //這行是背景
+  context.drawImage(img1, 50, 300,150,210); //這行是場景
+  context.drawImage(img2, 110, 40,150,210); //這行是人物
+  context.drawImage(img3, 210, 230,150,210); //這行是情緒1
+  context.drawImage(img4, 390, 210,150,210); //這行是情緒2
+  context.drawImage(img5, 290, 40,150,210); //這行是段落
 
 
 }
