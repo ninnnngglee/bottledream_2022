@@ -1,7 +1,6 @@
 *{
   font-family: 微軟正黑體;
   color: #eee;
- 
 }
 
 .b_show{
@@ -30,7 +29,9 @@ body{
   
 }
 
-.scenes{
+
+
+.container1{
   text-align: center;
   font-size: 40px;
   position: absolute;
@@ -38,31 +39,31 @@ body{
   border-top:rgba(0,0,0,0);
   border-bottom:rgba(0,0,0,0);
   top: 100px;
-  left: 80px;
-  height: 800px;
+  left: 90px;
+/*   height: 800px; */
   width: 150px;
   padding: 5px;
   
 }
  
 
-.characters{
+.container2{
   text-align: center;
   font-size: 40px;
   position: absolute;
-  // display: inline-block;
+/*   // display: inline-block; */
   border: 1px solid;
   border-top:rgba(0,0,0,0);
   border-bottom:rgba(0,0,0,0);
   top: 100px;
   left: 250px;
-  height: 800px;
+/*   height: 800px; */
   width: 150px;
   padding: 5px;
 /*   background-color: #eee; */
   
 }
-.emotions{
+.container3{
   text-align: center;
   font-size: 40px;
   position: absolute;
@@ -71,14 +72,14 @@ body{
   border-top:rgba(0,0,0,0);
   border-bottom:rgba(0,0,0,0);
   top: 100px;
-  left: 430px;
-  height: 800px;
+  left: 410px;
+/*   height: 800px; */
   width: 150px;
   padding: 5px;
 /*   background-color: #eee; */
 }
 
-.paragraph{
+.container4{
   text-align: center;
   font-size: 40px;
   position: absolute;
@@ -87,15 +88,34 @@ body{
   border-top:rgba(0,0,0,0);
   border-bottom:rgba(0,0,0,0);
   top: 100px;
-  left: 610px;
-  height: 800px;
+  left: 570px;
+/*   height: 800px; */
   width: 150px;
   padding: 5px;
 /*   background-color: #eee; */
 }
 
+.container5{
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+/*   // display: inline-block; */
+  border: 1px solid;
+  border-top:rgba(0,0,0,0);
+  border-bottom:rgba(0,0,0,0);
+  top: 100px;
+  left: 730px;
+/*   height: 800px; */
+  width: 150px;
+  padding: 5px;
+/*   background-color: #eee; */
+}
+
+
+
+/* 以下是按鈕 */
 .b1, .b2, .b3, .b4, .button1, .button2, .button3, .button4, .button5, .button6, .bu1,.bu2,.bu3,.bu4,.bu5,.bu6,.bu7,.bu8,.bu9,.bu10,.bu11,.bu12,.bu13,.bu14,.b-1,.b-2,.b-3,.b-4,.b-5,.b-6,.b-7{
-    width: 140px;
+    width: 130px;
     height: 40px;
     font-size: 10px;
     text-align: center;
@@ -143,24 +163,28 @@ body{
   
 } */
 
-.canvas {
+
+
+
+/* 以下是畫布 */
+.container6{
 /*   background-image:url('https://i.imgur.com/kTwIgSG.jpg');　//先給你想要放在背景的圖片路徑或網址 */ 
 /* 　background-attachment:;　//背景圖片位置固定 */
   position: absolute;
 /*   border-style: dotted; */
-  left: 800px;
-  top: 100px;
+  left: 890px;
+  top: 90px;
   padding: 5px;
 
 } 
 
 
 
-#認得, #不認得,#自然,#黑白 {
+#認得, #不認得,#自然,#沒有特別 {
   /*下面是移動圖片位置*/
   position: absolute;
-	left: 965px;
-	top: 413px;
+	left: 1050px;
+	top: 403px;
   display: none;
 }
 
@@ -169,8 +193,8 @@ body{
 #重要他人, #認識、認得、非重要他人,#不認識也不認得,#當事人, #旁觀者,#無人{
   /*下面是移動圖片位置*/
   position: absolute;
-	left: 1040px;
-	top: 198px;
+	left: 1127px;
+	top: 188px;
   display: none;
 }
 
@@ -178,25 +202,25 @@ body{
 #因果關係,#元素過多,#長篇劇情,#分段落, #不同晚上同個夢境,#同個晚上多個夢境,#夢中夢{
   /*下面是移動圖片位置*/
   position: absolute;
-	left: 1202px;
-	top: 198px;
+	left: 1287px;
+	top: 188px;
   display: none;
 }
 
-#悲傷, #快樂,#恐怖,#荒謬,#憤怒,#興奮{
+#悲傷, #快樂,#恐怖,#荒謬,#憤怒{
   /*下面是移動圖片位置*/
   position: absolute;
-	left: 1124px;
-	top: 413px;
+	left: 1209px;
+	top: 403px;
   display: none;
 }
 
 
-#孤單,#幸福,#無,#淒慘,#憂鬱,#焦急,#厭惡{
+#孤單,#幸福,#無,#淒慘,#憂鬱,#焦急{
   /*下面是移動圖片位置*/
   position: absolute;
-	left: 1285px;
-	top: 413px;
+	left: 1371px;
+	top: 403px;
   display: none;
 }
 
@@ -212,16 +236,16 @@ body{
   position: absolute;
   top:0; left:0;
   background:rgba(0,0,0,0.9);
-  height: 2000px;
-  width: 2000px;
+  height: 100%;
+  width: 100%;
   z-index: 100;
   display: none;
 }
 
 .container_1 .popup-img .span{
   position: fixed;
-  top: 10px; right:50px;
-  font-size: 90px;
+  top:0px; right:40px;
+  font-size: 70px;
   font-weight: bolder;
   color: #eee;
   cursor: pointer;
@@ -231,6 +255,6 @@ body{
 
 .container_1 .popup-img .canvas2{
   position: absolute;
-  top: 50%; left:50%;
-  transform: translate(-50%, -50%);
+/*   top: 50%; left:50%; */
+/*   transform: translate(-50%, -50%); */
 }

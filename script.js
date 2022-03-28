@@ -19,53 +19,50 @@ const show = () => {
     img1.src = "https://i.imgur.com/0r6tSZW.png";
   else if(document.getElementById("自然").style.display=="block")
     img1.src = "https://i.imgur.com/0r6tSZW.png";
-  else if(document.getElementById("黑白").style.display=="block")
+  else if(document.getElementById("沒有特別").style.display=="block")
     img1.src = "https://i.imgur.com/0r6tSZW.png";
   
   var img2 = new Image(); //人物
   if(document.getElementById("重要他人").style.display=="block")
-    img2.src = "https://i.imgur.com/0r6tSZW.png";
+    img2.src = "https://i.imgur.com/LeJ0qn5.jpg";
   else if(document.getElementById("認識、認得、非重要他人").style.display=="block")
-    img2.src = "https://i.imgur.com/0r6tSZW.png";
+    img2.src = "https://i.imgur.com/keeKHzp.jpg";
   else if(document.getElementById("不認識也不認得").style.display=="block")
-    img2.src = "https://i.imgur.com/Zgm2Cwa.png";
+    img2.src = "https://i.imgur.com/mhYWZfx.jpg";
   else if(document.getElementById("當事人").style.display=="block")
-    img2.src = "https://i.imgur.com/0r6tSZW.png";
+    img2.src = "https://i.imgur.com/2NANyrL.jpg";
   else if(document.getElementById("旁觀者").style.display=="block")
-    img2.src = "https://i.imgur.com/0r6tSZW.png";
+    img2.src = "https://i.imgur.com/itAm6X1.jpg";
   else if(document.getElementById("無人").style.display=="block")
-    img2.src = "https://i.imgur.com/0r6tSZW.png";
+    img2.src = "https://i.imgur.com/khsgYip.jpg";
   
   var img3 = new Image(); //情緒
    if(document.getElementById("悲傷").style.display=="block")
-    img3.src = "https://i.imgur.com/mCrEfTf.jpg";
+    img3.src = "https://i.imgur.com/kMLcwMb.jpg";
   else if(document.getElementById("快樂").style.display=="block")
     img3.src = "https://i.imgur.com/xiAqXif.jpg";
   else if(document.getElementById("恐怖").style.display=="block")
     img3.src = "https://i.imgur.com/LBZAhk1.jpg";
   else if(document.getElementById("荒謬").style.display=="block")
-    img3.src = "https://i.imgur.com/q2Nuu3m.png";
+    img3.src = "https://i.imgur.com/bH7q3t1.jpg";
   else if(document.getElementById("憤怒").style.display=="block")
-    img3.src = "https://i.imgur.com/BtInK11.png";
-  else if(document.getElementById("興奮").style.display=="block")
-    img3.src = "https://i.imgur.com/E0SEedG.png";
+    img3.src = "https://i.imgur.com/KXAXtvt.jpg";
+  
   
   var img4 = new Image(); //情緒2
    if(document.getElementById("孤單").style.display=="block")
-    img4.src = "https://i.imgur.com/BtpO3vw.jpg";
+    img4.src = "https://i.imgur.com/oDXCqIq.jpg";
   else if(document.getElementById("幸福").style.display=="block")
     img4.src = "https://i.imgur.com/jxqEjiZ.jpg";
   else if(document.getElementById("無").style.display=="block")
     img4.src = "https://i.imgur.com/rP4IaSz.jpg";
   else if(document.getElementById("淒慘").style.display=="block")
-    img4.src = "https://i.imgur.com/0r6tSZW.png";
+    img4.src = "https://i.imgur.com/5edBgLg.jpg";
   else if(document.getElementById("憂鬱").style.display=="block")
     img4.src = "https://i.imgur.com/waRdYhO.jpg";
   else if(document.getElementById("焦急").style.display=="block")
-    img4.src = "https://i.imgur.com/74lqBIz.jpg";
-  else if(document.getElementById("厭惡").style.display=="block")
-    img4.src = "https://i.imgur.com/pbnazQ3.png";
-  
+    img4.src = "https://i.imgur.com/1EEpZ7w.jpg";
+ 
   var img5 = new Image(); //段落
    if(document.getElementById("因果關係").style.display=="block")
     img5.src = "https://i.imgur.com/MIDPSVk.jpg";
@@ -84,15 +81,16 @@ const show = () => {
   
   var canvas = document.getElementById('canvas2');
   var context = canvas.getContext('2d');
-  canvas.width = 840;
+  canvas.width = 830;
   canvas.height = 600;
   context.globalAlpha = 1.0;
-  context.drawImage(bg, 0, 0,840,600); //這行是背景
-  context.drawImage(img1, 163, 310,130,190); //這行是場景
-  context.drawImage(img2, 238, 95,130,190); //這行是人物
-  context.drawImage(img3, 322, 310,130,190); //這行是情緒1
-  context.drawImage(img4, 483, 310,130,190); //這行是情緒2
-  context.drawImage(img5, 400, 95,130,190); //這行是段落
+  context.drawImage(bg,50,50,830,600); //這行是背景
+  context.drawImage(img1,207.5,358,130,190); //這行是場景
+  context.drawImage(img2,284.5,143,130,190); //這行是人物
+  context.drawImage(img3,366.5,358,130,190); //這行是情緒1
+  context.drawImage(img4,527.5,358,130,190); //這行是情緒2
+  context.drawImage(img5,444.5,143,130,190); //這行是段落
+//這行是段落
 
 
 }
@@ -102,25 +100,25 @@ const myFunction = () => {
   document.getElementById("認得").style.display ='block';
   document.getElementById("不認得").style.display ='none'
   document.getElementById("自然").style.display ='none'
-  document.getElementById("黑白").style.display ='none'
+  document.getElementById("沒有特別").style.display ='none'
 }
 
 const myFunction2 = () => {
   document.getElementById("不認得").style.display ='block';
   document.getElementById("認得").style.display ='none'
   document.getElementById("自然").style.display ='none'
- document.getElementById("黑白").style.display ='none'
+ document.getElementById("沒有特別").style.display ='none'
 }
 
 const myFunction3 = () => {
   document.getElementById("自然").style.display ='block';
   document.getElementById("認得").style.display ='none'
   document.getElementById("不認得").style.display ='none'
-  document.getElementById("黑白").style.display ='none'
+  document.getElementById("沒有特別").style.display ='none'
 }
 
 const myFunction4 = () => {
-  document.getElementById("黑白").style.display ='block';
+  document.getElementById("沒有特別").style.display ='block';
   document.getElementById("認得").style.display ='none'
   document.getElementById("不認得").style.display ='none'
   document.getElementById("自然").style.display ='none'
@@ -263,7 +261,7 @@ const eFunction = () => {
   document.getElementById("恐怖").style.display ='none'
   document.getElementById("荒謬").style.display ='none'
   document.getElementById("憤怒").style.display ='none'
-  document.getElementById("興奮").style.display ='none'
+  // document.getElementById("興奮").style.display ='none'
   // document.getElementById("孤單").style.display ='none'
   // document.getElementById("幸福").style.display ='none'
   // document.getElementById("無").style.display ='none'
@@ -278,7 +276,7 @@ const eFunction1 = () => {
   document.getElementById("恐怖").style.display ='none'
   document.getElementById("荒謬").style.display ='none'
   document.getElementById("憤怒").style.display ='none'
-  document.getElementById("興奮").style.display ='none'
+  // document.getElementById("興奮").style.display ='none'
   // document.getElementById("孤單").style.display ='none'
   // document.getElementById("幸福").style.display ='none'
   // document.getElementById("無").style.display ='none'
@@ -294,7 +292,7 @@ const eFunction2 = () => {
   document.getElementById("悲傷").style.display ='none'
   document.getElementById("荒謬").style.display ='none'
   document.getElementById("憤怒").style.display ='none'
-  document.getElementById("興奮").style.display ='none'
+  // document.getElementById("興奮").style.display ='none'
   // document.getElementById("孤單").style.display ='none'
   // document.getElementById("幸福").style.display ='none'
   // document.getElementById("無").style.display ='none'
@@ -311,7 +309,7 @@ const eFunction3 = () => {
   document.getElementById("恐怖").style.display ='none'
   document.getElementById("悲傷").style.display ='none'
   document.getElementById("憤怒").style.display ='none'
-  document.getElementById("興奮").style.display ='none'
+  // document.getElementById("興奮").style.display ='none'
   // document.getElementById("孤單").style.display ='none'
   // document.getElementById("幸福").style.display ='none'
   // document.getElementById("無").style.display ='none'
@@ -340,7 +338,7 @@ const eFunction4 = () => {
     
   
 const eFunction5 = () => {
-  document.getElementById("興奮").style.display ='block';
+  // document.getElementById("興奮").style.display ='block';
   document.getElementById("快樂").style.display ='none'
   document.getElementById("恐怖").style.display ='none'
   document.getElementById("荒謬").style.display ='none'
@@ -369,7 +367,7 @@ const e1Function6 = () => {
   document.getElementById("淒慘").style.display ='none'
   document.getElementById("憂鬱").style.display ='none'
   document.getElementById("焦急").style.display ='none'
-  document.getElementById("厭惡").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
 }
   
 const e1Function7 = () => {
@@ -385,7 +383,7 @@ const e1Function7 = () => {
   document.getElementById("淒慘").style.display ='none'
   document.getElementById("憂鬱").style.display ='none'
   document.getElementById("焦急").style.display ='none'
-  document.getElementById("厭惡").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
 }
 
 
@@ -402,7 +400,7 @@ const e1Function8 = () => {
   document.getElementById("淒慘").style.display ='none'
   document.getElementById("憂鬱").style.display ='none'
   document.getElementById("焦急").style.display ='none'
-  document.getElementById("厭惡").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
 }
   
 const e1Function9 = () => {
@@ -418,7 +416,7 @@ const e1Function9 = () => {
   document.getElementById("無").style.display ='none'
   document.getElementById("憂鬱").style.display ='none'
   document.getElementById("焦急").style.display ='none'
-  document.getElementById("厭惡").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
 }
   
 const e1Function10 = () => {
@@ -434,7 +432,7 @@ const e1Function10 = () => {
   document.getElementById("淒慘").style.display ='none'
   // document.getElementById("悲傷").style.display ='none'
   document.getElementById("焦急").style.display ='none'
-  document.getElementById("厭惡").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
 }
 
 const e1Function11 = () => {
@@ -450,11 +448,11 @@ const e1Function11 = () => {
   document.getElementById("淒慘").style.display ='none'
   document.getElementById("憂鬱").style.display ='none'
   // document.getElementById("悲傷").style.display ='none'
-  document.getElementById("厭惡").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
 }
 
 const e1Function12 = () => {
-  document.getElementById("厭惡").style.display ='block';
+  // document.getElementById("厭惡").style.display ='block';
   // document.getElementById("快樂").style.display ='none'
   // document.getElementById("恐怖").style.display ='none'
   // document.getElementById("荒謬").style.display ='none'
