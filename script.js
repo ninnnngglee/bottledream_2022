@@ -1,7 +1,6 @@
 const show = () => {
   
   document.querySelector(".container_1 .popup-img").style.display='block';
-  
   document.querySelector(".container_1 .popup-img span ").onclick=()=>{
     document.querySelector(".container_1 .popup-img").style.display='none'
   }
@@ -16,11 +15,11 @@ const show = () => {
   if(document.getElementById("認得").style.display=="block")
     img1.src = "https://i.imgur.com/bOvVkaZ.jpg";
   else if(document.getElementById("不認得").style.display=="block")
-    img1.src = "https://i.imgur.com/0r6tSZW.png";
+    img1.src = "https://i.imgur.com/6qXCF2t.jpg";
   else if(document.getElementById("自然").style.display=="block")
-    img1.src = "https://i.imgur.com/0r6tSZW.png";
+    img1.src = "https://i.imgur.com/pZnN3Wn.jpg";
   else if(document.getElementById("沒有特別").style.display=="block")
-    img1.src = "https://i.imgur.com/0r6tSZW.png";
+    img1.src = "https://i.imgur.com/3Wnn5XR.jpg";
   
   var img2 = new Image(); //人物
   if(document.getElementById("重要他人").style.display=="block")
@@ -699,3 +698,10 @@ const e2Function12 = () => {
   document.getElementById("焦急2").style.display ='none'
   document.getElementById("悲傷2").style.display ='none'
 }
+
+// const instructions = () => {
+  
+//   document.querySelector(".container_2 .popup-guideimg").style.display='block';
+//   document.querySelector(".container_1 .popup-guideimg span ").onclick=()=>{
+//     document.querySelector(".container_1 .popup-guideimg").style.display='none'
+//   }
