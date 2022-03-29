@@ -36,7 +36,7 @@ const show = () => {
   else if(document.getElementById("無人").style.display=="block")
     img2.src = "https://i.imgur.com/khsgYip.jpg";
   
-  var img3 = new Image(); //情緒
+  var img3 = new Image(); //情緒一
    if(document.getElementById("悲傷").style.display=="block")
     img3.src = "https://i.imgur.com/kMLcwMb.jpg";
   else if(document.getElementById("快樂").style.display=="block")
@@ -47,20 +47,42 @@ const show = () => {
     img3.src = "https://i.imgur.com/bH7q3t1.jpg";
   else if(document.getElementById("憤怒").style.display=="block")
     img3.src = "https://i.imgur.com/KXAXtvt.jpg";
-  
-  
-  var img4 = new Image(); //情緒2
-   if(document.getElementById("孤單").style.display=="block")
-    img4.src = "https://i.imgur.com/oDXCqIq.jpg";
+  else if(document.getElementById("孤單").style.display=="block")
+    img3.src = "https://i.imgur.com/oDXCqIq.jpg";
   else if(document.getElementById("幸福").style.display=="block")
-    img4.src = "https://i.imgur.com/jxqEjiZ.jpg";
+    img3.src = "https://i.imgur.com/jxqEjiZ.jpg";
   else if(document.getElementById("無").style.display=="block")
-    img4.src = "https://i.imgur.com/rP4IaSz.jpg";
+    img3.src = "https://i.imgur.com/rP4IaSz.jpg";
   else if(document.getElementById("淒慘").style.display=="block")
-    img4.src = "https://i.imgur.com/5edBgLg.jpg";
+    img3.src = "https://i.imgur.com/5edBgLg.jpg";
   else if(document.getElementById("憂鬱").style.display=="block")
-    img4.src = "https://i.imgur.com/waRdYhO.jpg";
+    img3.src = "https://i.imgur.com/waRdYhO.jpg";
   else if(document.getElementById("焦急").style.display=="block")
+    img3.src = "https://i.imgur.com/1EEpZ7w.jpg";
+  
+  
+  var img4 = new Image(); //情緒二
+  if(document.getElementById("悲傷2").style.display=="block")
+    img4.src = "https://i.imgur.com/kMLcwMb.jpg";
+  else if(document.getElementById("快樂2").style.display=="block")
+    img4.src = "https://i.imgur.com/xiAqXif.jpg";
+  else if(document.getElementById("恐怖2").style.display=="block")
+    img4.src = "https://i.imgur.com/jbMwKu5.jpg";
+  else if(document.getElementById("荒謬2").style.display=="block")
+    img4.src = "https://i.imgur.com/bH7q4t1.jpg";
+  else if(document.getElementById("憤怒2").style.display=="block")
+    img4.src = "https://i.imgur.com/KXAXtvt.jpg";
+  else if(document.getElementById("孤單2").style.display=="block")
+    img4.src = "https://i.imgur.com/oDXCqIq.jpg";
+  else if(document.getElementById("幸福2").style.display=="block")
+    img4.src = "https://i.imgur.com/jxqEjiZ.jpg";
+  else if(document.getElementById("無2").style.display=="block")
+    img4.src = "https://i.imgur.com/rP4IaSz.jpg";
+  else if(document.getElementById("淒慘2").style.display=="block")
+    img4.src = "https://i.imgur.com/5edBgLg.jpg";
+  else if(document.getElementById("憂鬱2").style.display=="block")
+    img4.src = "https://i.imgur.com/waRdYhO.jpg";
+  else if(document.getElementById("焦急2").style.display=="block")
     img4.src = "https://i.imgur.com/1EEpZ7w.jpg";
  
   var img5 = new Image(); //段落
@@ -262,12 +284,12 @@ const eFunction = () => {
   document.getElementById("荒謬").style.display ='none'
   document.getElementById("憤怒").style.display ='none'
   // document.getElementById("興奮").style.display ='none'
-  // document.getElementById("孤單").style.display ='none'
-  // document.getElementById("幸福").style.display ='none'
-  // document.getElementById("無").style.display ='none'
-  // document.getElementById("淒慘").style.display ='none'
-  // document.getElementById("憂鬱").style.display ='none'
-  // document.getElementById("焦急").style.display ='none'
+  document.getElementById("孤單").style.display ='none'
+  document.getElementById("幸福").style.display ='none'
+  document.getElementById("無").style.display ='none'
+  document.getElementById("淒慘").style.display ='none'
+  document.getElementById("憂鬱").style.display ='none'
+  document.getElementById("焦急").style.display ='none'
   // document.getElementById("厭惡").style.display ='none'
 }
 const eFunction1 = () => {
@@ -277,12 +299,12 @@ const eFunction1 = () => {
   document.getElementById("荒謬").style.display ='none'
   document.getElementById("憤怒").style.display ='none'
   // document.getElementById("興奮").style.display ='none'
-  // document.getElementById("孤單").style.display ='none'
-  // document.getElementById("幸福").style.display ='none'
-  // document.getElementById("無").style.display ='none'
-  // document.getElementById("淒慘").style.display ='none'
-  // document.getElementById("憂鬱").style.display ='none'
-  // document.getElementById("焦急").style.display ='none'
+  document.getElementById("孤單").style.display ='none'
+  document.getElementById("幸福").style.display ='none'
+  document.getElementById("無").style.display ='none'
+  document.getElementById("淒慘").style.display ='none'
+  document.getElementById("憂鬱").style.display ='none'
+  document.getElementById("焦急").style.display ='none'
   // document.getElementById("厭惡").style.display ='none'
 }
 
@@ -293,12 +315,12 @@ const eFunction2 = () => {
   document.getElementById("荒謬").style.display ='none'
   document.getElementById("憤怒").style.display ='none'
   // document.getElementById("興奮").style.display ='none'
-  // document.getElementById("孤單").style.display ='none'
-  // document.getElementById("幸福").style.display ='none'
-  // document.getElementById("無").style.display ='none'
-  // document.getElementById("淒慘").style.display ='none'
-  // document.getElementById("憂鬱").style.display ='none'
-  // document.getElementById("焦急").style.display ='none'
+  document.getElementById("孤單").style.display ='none'
+  document.getElementById("幸福").style.display ='none'
+  document.getElementById("無").style.display ='none'
+  document.getElementById("淒慘").style.display ='none'
+  document.getElementById("憂鬱").style.display ='none'
+  document.getElementById("焦急").style.display ='none'
   // document.getElementById("厭惡").style.display ='none'
 }
 
@@ -309,13 +331,12 @@ const eFunction3 = () => {
   document.getElementById("恐怖").style.display ='none'
   document.getElementById("悲傷").style.display ='none'
   document.getElementById("憤怒").style.display ='none'
-  // document.getElementById("興奮").style.display ='none'
-  // document.getElementById("孤單").style.display ='none'
-  // document.getElementById("幸福").style.display ='none'
-  // document.getElementById("無").style.display ='none'
-  // document.getElementById("淒慘").style.display ='none'
-  // document.getElementById("憂鬱").style.display ='none'
-  // document.getElementById("焦急").style.display ='none'
+  document.getElementById("孤單").style.display ='none'
+  document.getElementById("幸福").style.display ='none'
+  document.getElementById("無").style.display ='none'
+  document.getElementById("淒慘").style.display ='none'
+  document.getElementById("憂鬱").style.display ='none'
+  document.getElementById("焦急").style.display ='none'
   // document.getElementById("厭惡").style.display ='none'
 }
   
@@ -327,11 +348,11 @@ const eFunction4 = () => {
   document.getElementById("悲傷").style.display ='none'
   document.getElementById("興奮").style.display ='none'
   // document.getElementById("孤單").style.display ='none'
-  // document.getElementById("幸福").style.display ='none'
-  // document.getElementById("無").style.display ='none'
-  // document.getElementById("淒慘").style.display ='none'
-  // document.getElementById("憂鬱").style.display ='none'
-  // document.getElementById("焦急").style.display ='none'
+  document.getElementById("幸福").style.display ='none'
+  document.getElementById("無").style.display ='none'
+  document.getElementById("淒慘").style.display ='none'
+  document.getElementById("憂鬱").style.display ='none'
+  document.getElementById("焦急").style.display ='none'
   // document.getElementById("厭惡").style.display ='none'
 }
 
@@ -339,29 +360,29 @@ const eFunction4 = () => {
   
 const eFunction5 = () => {
   // document.getElementById("興奮").style.display ='block';
-  document.getElementById("快樂").style.display ='none'
+  document.getElementById("快樂").style.display ='block'
   document.getElementById("恐怖").style.display ='none'
   document.getElementById("荒謬").style.display ='none'
   document.getElementById("憤怒").style.display ='none'
   document.getElementById("悲傷").style.display ='none'
   document.getElementById("孤單").style.display ='none'
-  // document.getElementById("幸福").style.display ='none'
-  // document.getElementById("無").style.display ='none'
-  // document.getElementById("淒慘").style.display ='none'
-  // document.getElementById("憂鬱").style.display ='none'
-  // document.getElementById("焦急").style.display ='none'
+  document.getElementById("幸福").style.display ='none'
+  document.getElementById("無").style.display ='none'
+  document.getElementById("淒慘").style.display ='none'
+  document.getElementById("憂鬱").style.display ='none'
+  document.getElementById("焦急").style.display ='none'
   // document.getElementById("厭惡").style.display ='none'
 }
   
   
-const e1Function6 = () => {
+const eFunction6 = () => {
   document.getElementById("孤單").style.display ='block';
-  // document.getElementById("快樂").style.display ='none'
-  // document.getElementById("恐怖").style.display ='none'
-  // document.getElementById("荒謬").style.display ='none'
-  // document.getElementById("憤怒").style.display ='none'
+  document.getElementById("快樂").style.display ='none'
+  document.getElementById("恐怖").style.display ='none'
+  document.getElementById("荒謬").style.display ='none'
+  document.getElementById("憤怒").style.display ='none'
   // document.getElementById("興奮").style.display ='none'
-  // document.getElementById("悲傷").style.display ='none'
+  document.getElementById("悲傷").style.display ='none'
   document.getElementById("幸福").style.display ='none'
   document.getElementById("無").style.display ='none'
   document.getElementById("淒慘").style.display ='none'
@@ -370,15 +391,15 @@ const e1Function6 = () => {
   // document.getElementById("厭惡").style.display ='none'
 }
   
-const e1Function7 = () => {
+const eFunction7 = () => {
   document.getElementById("幸福").style.display ='block';
-  // document.getElementById("快樂").style.display ='none'
-  // document.getElementById("恐怖").style.display ='none'
-  // document.getElementById("荒謬").style.display ='none'
-  // document.getElementById("憤怒").style.display ='none'
+  document.getElementById("快樂").style.display ='none'
+  document.getElementById("恐怖").style.display ='none'
+  document.getElementById("荒謬").style.display ='none'
+  document.getElementById("憤怒").style.display ='none'
   // document.getElementById("興奮").style.display ='none'
-  // document.getElementById("孤單").style.display ='none'
-  // document.getElementById("悲傷").style.display ='none'
+  document.getElementById("孤單").style.display ='none'
+  document.getElementById("悲傷").style.display ='none'
   document.getElementById("無").style.display ='none'
   document.getElementById("淒慘").style.display ='none'
   document.getElementById("憂鬱").style.display ='none'
@@ -387,76 +408,76 @@ const e1Function7 = () => {
 }
 
 
-const e1Function8 = () => {
+const eFunction8 = () => {
   document.getElementById("無").style.display ='block';
-  // document.getElementById("快樂").style.display ='none'
-  // document.getElementById("恐怖").style.display ='none'
-  // document.getElementById("荒謬").style.display ='none'
-  // document.getElementById("憤怒").style.display ='none'
+  document.getElementById("快樂").style.display ='none'
+  document.getElementById("恐怖").style.display ='none'
+  document.getElementById("荒謬").style.display ='none'
+  document.getElementById("憤怒").style.display ='none'
   // document.getElementById("興奮").style.display ='none'
-  // document.getElementById("孤單").style.display ='none'
+  document.getElementById("孤單").style.display ='none'
   document.getElementById("幸福").style.display ='none'
-  // document.getElementById("悲傷").style.display ='none'
+  document.getElementById("悲傷").style.display ='none'
   document.getElementById("淒慘").style.display ='none'
   document.getElementById("憂鬱").style.display ='none'
   document.getElementById("焦急").style.display ='none'
   // document.getElementById("厭惡").style.display ='none'
 }
   
-const e1Function9 = () => {
+const eFunction9 = () => {
   document.getElementById("淒慘").style.display ='block';
-  // document.getElementById("快樂").style.display ='none'
-  // document.getElementById("恐怖").style.display ='none'
-  // document.getElementById("荒謬").style.display ='none'
-  // document.getElementById("憤怒").style.display ='none'
+  document.getElementById("快樂").style.display ='none'
+  document.getElementById("恐怖").style.display ='none'
+  document.getElementById("荒謬").style.display ='none'
+  document.getElementById("憤怒").style.display ='none'
   // document.getElementById("興奮").style.display ='none'
   document.getElementById("孤單").style.display ='none'
   document.getElementById("幸福").style.display ='none'
-  // document.getElementById("悲傷").style.display ='none'
+  document.getElementById("悲傷").style.display ='none'
   document.getElementById("無").style.display ='none'
   document.getElementById("憂鬱").style.display ='none'
   document.getElementById("焦急").style.display ='none'
   // document.getElementById("厭惡").style.display ='none'
 }
   
-const e1Function10 = () => {
+const eFunction10 = () => {
   document.getElementById("憂鬱").style.display ='block';
-  // document.getElementById("快樂").style.display ='none'
-  // document.getElementById("恐怖").style.display ='none'
-  // document.getElementById("荒謬").style.display ='none'
-  // document.getElementById("憤怒").style.display ='none'
+  document.getElementById("快樂").style.display ='none'
+  document.getElementById("恐怖").style.display ='none'
+  document.getElementById("荒謬").style.display ='none'
+  document.getElementById("憤怒").style.display ='none'
   // document.getElementById("興奮").style.display ='none'
   document.getElementById("孤單").style.display ='none'
   document.getElementById("幸福").style.display ='none'
   document.getElementById("無").style.display ='none'
   document.getElementById("淒慘").style.display ='none'
-  // document.getElementById("悲傷").style.display ='none'
+  document.getElementById("悲傷").style.display ='none'
   document.getElementById("焦急").style.display ='none'
   // document.getElementById("厭惡").style.display ='none'
 }
 
-const e1Function11 = () => {
+const eFunction11 = () => {
   document.getElementById("焦急").style.display ='block';
-  // document.getElementById("快樂").style.display ='none'
-  // document.getElementById("恐怖").style.display ='none'
-  // document.getElementById("荒謬").style.display ='none'
-  // document.getElementById("憤怒").style.display ='none'
+  document.getElementById("快樂").style.display ='none'
+  document.getElementById("恐怖").style.display ='none'
+  document.getElementById("荒謬").style.display ='none'
+  document.getElementById("憤怒").style.display ='none'
   // document.getElementById("興奮").style.display ='none'
   document.getElementById("孤單").style.display ='none'
   document.getElementById("幸福").style.display ='none'
   document.getElementById("無").style.display ='none'
   document.getElementById("淒慘").style.display ='none'
   document.getElementById("憂鬱").style.display ='none'
-  // document.getElementById("悲傷").style.display ='none'
+  document.getElementById("悲傷").style.display ='none'
   // document.getElementById("厭惡").style.display ='none'
 }
 
-const e1Function12 = () => {
+const eFunction12 = () => {
   // document.getElementById("厭惡").style.display ='block';
-  // document.getElementById("快樂").style.display ='none'
-  // document.getElementById("恐怖").style.display ='none'
-  // document.getElementById("荒謬").style.display ='none'
-  // document.getElementById("憤怒").style.display ='none'
+  document.getElementById("快樂").style.display ='block'
+  document.getElementById("恐怖").style.display ='none'
+  document.getElementById("荒謬").style.display ='none'
+  document.getElementById("憤怒").style.display ='none'
   // document.getElementById("興奮").style.display ='none'
   document.getElementById("孤單").style.display ='none'
   document.getElementById("幸福").style.display ='none'
@@ -464,5 +485,217 @@ const e1Function12 = () => {
   document.getElementById("淒慘").style.display ='none'
   document.getElementById("憂鬱").style.display ='none'
   document.getElementById("焦急").style.display ='none'
-  // document.getElementById("悲傷").style.display ='none'
+  document.getElementById("悲傷").style.display ='none'
+}
+
+// 情緒二
+const e2Function = () => {
+  document.getElementById("悲傷2").style.display ='block';
+  document.getElementById("快樂2").style.display ='none'
+  document.getElementById("恐怖2").style.display ='none'
+  document.getElementById("荒謬2").style.display ='none'
+  document.getElementById("憤怒2").style.display ='none'
+  // document.getElementById("興奮").style.display ='none'
+  document.getElementById("孤單2").style.display ='none'
+  document.getElementById("幸福2").style.display ='none'
+  document.getElementById("無2").style.display ='none'
+  document.getElementById("淒慘2").style.display ='none'
+  document.getElementById("憂鬱2").style.display ='none'
+  document.getElementById("焦急2").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
+}
+const e2Function1 = () => {
+  document.getElementById("快樂2").style.display ='block';
+  document.getElementById("悲傷2").style.display ='none'
+  document.getElementById("恐怖2").style.display ='none'
+  document.getElementById("荒謬2").style.display ='none'
+  document.getElementById("憤怒2").style.display ='none'
+  // document.getElementById("興奮").style.display ='none'
+  document.getElementById("孤單2").style.display ='none'
+  document.getElementById("幸福2").style.display ='none'
+  document.getElementById("無2").style.display ='none'
+  document.getElementById("淒慘2").style.display ='none'
+  document.getElementById("憂鬱2").style.display ='none'
+  document.getElementById("焦急2").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
+}
+
+const e2Function2 = () => {
+  document.getElementById("恐怖2").style.display ='block';
+  document.getElementById("快樂2").style.display ='none'
+  document.getElementById("悲傷2").style.display ='none'
+  document.getElementById("荒謬2").style.display ='none'
+  document.getElementById("憤怒2").style.display ='none'
+  // document.getElementById("興奮").style.display ='none'
+  document.getElementById("孤單2").style.display ='none'
+  document.getElementById("幸福2").style.display ='none'
+  document.getElementById("無2").style.display ='none'
+  document.getElementById("淒慘2").style.display ='none'
+  document.getElementById("憂鬱2").style.display ='none'
+  document.getElementById("焦急2").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
+}
+
+
+const e2Function3 = () => {
+  document.getElementById("荒謬2").style.display ='block';
+  document.getElementById("快樂2").style.display ='none'
+  document.getElementById("恐怖2").style.display ='none'
+  document.getElementById("悲傷2").style.display ='none'
+  document.getElementById("憤怒2").style.display ='none'
+  document.getElementById("孤單2").style.display ='none'
+  document.getElementById("幸福2").style.display ='none'
+  document.getElementById("無2").style.display ='none'
+  document.getElementById("淒慘2").style.display ='none'
+  document.getElementById("憂鬱2").style.display ='none'
+  document.getElementById("焦急2").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
+}
+  
+const e2Function4 = () => {
+  document.getElementById("憤怒2").style.display ='block';
+  document.getElementById("快樂2").style.display ='none'
+  document.getElementById("恐怖2").style.display ='none'
+  document.getElementById("荒謬2").style.display ='none'
+  document.getElementById("悲傷2").style.display ='none'
+  document.getElementById("興奮2").style.display ='none'
+  // document.getElementById("孤單").style.display ='none'
+  document.getElementById("幸福2").style.display ='none'
+  document.getElementById("無2").style.display ='none'
+  document.getElementById("淒慘2").style.display ='none'
+  document.getElementById("憂鬱2").style.display ='none'
+  document.getElementById("焦急2").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
+}
+
+    
+  
+const e2Function5 = () => {
+  // document.getElementById("興奮").style.display ='block';
+  document.getElementById("快樂2").style.display ='block'
+  document.getElementById("恐怖2").style.display ='none'
+  document.getElementById("荒謬2").style.display ='none'
+  document.getElementById("憤怒2").style.display ='none'
+  document.getElementById("悲傷2").style.display ='none'
+  document.getElementById("孤單2").style.display ='none'
+  document.getElementById("幸福2").style.display ='none'
+  document.getElementById("無2").style.display ='none'
+  document.getElementById("淒慘2").style.display ='none'
+  document.getElementById("憂鬱2").style.display ='none'
+  document.getElementById("焦急2").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
+}
+  
+  
+const e2Function6 = () => {
+  document.getElementById("孤單2").style.display ='block';
+  document.getElementById("快樂2").style.display ='none'
+  document.getElementById("恐怖2").style.display ='none'
+  document.getElementById("荒謬2").style.display ='none'
+  document.getElementById("憤怒2").style.display ='none'
+  // document.getElementById("興奮").style.display ='none'
+  document.getElementById("悲傷2").style.display ='none'
+  document.getElementById("幸福2").style.display ='none'
+  document.getElementById("無2").style.display ='none'
+  document.getElementById("淒慘2").style.display ='none'
+  document.getElementById("憂鬱2").style.display ='none'
+  document.getElementById("焦急2").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
+}
+  
+const e2Function7 = () => {
+  document.getElementById("幸福2").style.display ='block';
+  document.getElementById("快樂2").style.display ='none'
+  document.getElementById("恐怖2").style.display ='none'
+  document.getElementById("荒謬2").style.display ='none'
+  document.getElementById("憤怒2").style.display ='none'
+  // document.getElementById("興奮").style.display ='none'
+  document.getElementById("孤單2").style.display ='none'
+  document.getElementById("悲傷2").style.display ='none'
+  document.getElementById("無2").style.display ='none'
+  document.getElementById("淒慘2").style.display ='none'
+  document.getElementById("憂鬱2").style.display ='none'
+  document.getElementById("焦急2").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
+}
+
+
+const e2Function8 = () => {
+  document.getElementById("無2").style.display ='block';
+  document.getElementById("快樂2").style.display ='none'
+  document.getElementById("恐怖2").style.display ='none'
+  document.getElementById("荒謬2").style.display ='none'
+  document.getElementById("憤怒2").style.display ='none'
+  // document.getElementById("興奮").style.display ='none'
+  document.getElementById("孤單2").style.display ='none'
+  document.getElementById("幸福2").style.display ='none'
+  document.getElementById("悲傷2").style.display ='none'
+  document.getElementById("淒慘2").style.display ='none'
+  document.getElementById("憂鬱2").style.display ='none'
+  document.getElementById("焦急2").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
+}
+  
+const e2Function9 = () => {
+  document.getElementById("淒慘2").style.display ='block';
+  document.getElementById("快樂2").style.display ='none'
+  document.getElementById("恐怖2").style.display ='none'
+  document.getElementById("荒謬2").style.display ='none'
+  document.getElementById("憤怒2").style.display ='none'
+  // document.getElementById("興奮").style.display ='none'
+  document.getElementById("孤單2").style.display ='none'
+  document.getElementById("幸福2").style.display ='none'
+  document.getElementById("悲傷2").style.display ='none'
+  document.getElementById("無2").style.display ='none'
+  document.getElementById("憂鬱2").style.display ='none'
+  document.getElementById("焦急2").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
+}
+  
+const e2Function10 = () => {
+  document.getElementById("憂鬱2").style.display ='block';
+  document.getElementById("快樂2").style.display ='none'
+  document.getElementById("恐怖2").style.display ='none'
+  document.getElementById("荒謬2").style.display ='none'
+  document.getElementById("憤怒2").style.display ='none'
+  // document.getElementById("興奮").style.display ='none'
+  document.getElementById("孤單2").style.display ='none'
+  document.getElementById("幸福2").style.display ='none'
+  document.getElementById("無2").style.display ='none'
+  document.getElementById("淒慘2").style.display ='none'
+  document.getElementById("悲傷2").style.display ='none'
+  document.getElementById("焦急2").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
+}
+
+const e2Function11 = () => {
+  document.getElementById("焦急2").style.display ='block';
+  document.getElementById("快樂2").style.display ='none'
+  document.getElementById("恐怖2").style.display ='none'
+  document.getElementById("荒謬2").style.display ='none'
+  document.getElementById("憤怒2").style.display ='none'
+  // document.getElementById("興奮").style.display ='none'
+  document.getElementById("孤單2").style.display ='none'
+  document.getElementById("幸福2").style.display ='none'
+  document.getElementById("無2").style.display ='none'
+  document.getElementById("淒慘2").style.display ='none'
+  document.getElementById("憂鬱2").style.display ='none'
+  document.getElementById("悲傷2").style.display ='none'
+  // document.getElementById("厭惡").style.display ='none'
+}
+
+const e2Function12 = () => {
+  // document.getElementById("厭惡").style.display ='block';
+  document.getElementById("快樂2").style.display ='block'
+  document.getElementById("恐怖2").style.display ='none'
+  document.getElementById("荒謬2").style.display ='none'
+  document.getElementById("憤怒2").style.display ='none'
+  // document.getElementById("興奮").style.display ='none'
+  document.getElementById("孤單2").style.display ='none'
+  document.getElementById("幸福2").style.display ='none'
+  document.getElementById("無2").style.display ='none'
+  document.getElementById("淒慘2").style.display ='none'
+  document.getElementById("憂鬱2").style.display ='none'
+  document.getElementById("焦急2").style.display ='none'
+  document.getElementById("悲傷2").style.display ='none'
 }

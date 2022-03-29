@@ -41,7 +41,7 @@ body{
   top: 100px;
   left: 90px;
 /*   height: 800px; */
-  width: 150px;
+/*   width: 150px; */
   padding: 5px;
   
 }
@@ -58,7 +58,7 @@ body{
   top: 100px;
   left: 250px;
 /*   height: 800px; */
-  width: 150px;
+/*   width: 150px; */
   padding: 5px;
 /*   background-color: #eee; */
   
@@ -74,7 +74,7 @@ body{
   top: 100px;
   left: 410px;
 /*   height: 800px; */
-  width: 150px;
+/*   width: 150px; */
   padding: 5px;
 /*   background-color: #eee; */
 }
@@ -90,7 +90,7 @@ body{
   top: 100px;
   left: 570px;
 /*   height: 800px; */
-  width: 150px;
+/*   width: 150px; */
   padding: 5px;
 /*   background-color: #eee; */
 }
@@ -106,7 +106,7 @@ body{
   top: 100px;
   left: 730px;
 /*   height: 800px; */
-  width: 150px;
+/*   width: 150px; */
   padding: 5px;
 /*   background-color: #eee; */
 }
@@ -114,7 +114,7 @@ body{
 
 
 /* 以下是按鈕 */
-.b1, .b2, .b3, .b4, .button1, .button2, .button3, .button4, .button5, .button6, .bu1,.bu2,.bu3,.bu4,.bu5,.bu6,.bu7,.bu8,.bu9,.bu10,.bu11,.bu12,.bu13,.bu14,.b-1,.b-2,.b-3,.b-4,.b-5,.b-6,.b-7{
+.b1, .b2, .b3, .b4, .button1, .button2, .button3, .button4, .button5, .button6, .bu1,.bu2,.bu3,.bu4,.bu5,.bu7,.bu8,.bu9,.bu10,.bu11,.bu12,.bu13,.bu14,.but1,.but2,.but3,.but4,.but5,.but7,.but8,.but9,.but10,.but11,.but12,.b-1,.b-2,.b-3,.b-4,.b-5,.b-6,.b-7{
     width: 130px;
     height: 40px;
     font-size: 10px;
@@ -132,13 +132,13 @@ body{
     
 }
 
-.b1>p, .b2>p, .b3>p, .b4>p, .button1>p, .button2>p, .button3>p, .button4>p, .button5>p, .button6>p, .bu1>p,.bu2>p,.bu3>p,.bu4>p,.bu5>p,.bu6>p,.bu7>p,.bu8>p,.bu9>p,.bu10>p,.bu11>p,.bu12>p,.bu13>p,.bu14>p,.b-1>p,.b-2>p,.b-3>p,.b-4>p,.b-5>p,.b-6>p,.b-7>p{
+.b1>p, .b2>p, .b3>p, .b4>p, .button1>p, .button2>p, .button3>p, .button4>p, .button5>p, .button6>p, .bu1>p,.bu2>p,.bu3>p,.bu4>p,.bu5>p,.bu7>p,.bu8>p,.bu9>p,.bu10>p,.bu11>p,.bu12>p,.but1>p,.but2>p,.but3>p,.but4>p,.but5>p,.but7>p,.but8>p,.but9>p,.but10>p,.but11>p,.but12>p,.b-1>p,.b-2>p,.b-3>p,.b-4>p,.b-5>p,.b-6>p,.b-7>p{
   position: relative;
   z-index: 1;
 }
 
 
-.b1::before, .b2::before, .b3::before, .b4::before, .button1::before, .button2::before, .button3::before, .button4::before, .button5::before, .button6::before, .bu1::before,.bu2::before,.bu3::before,.bu4::before,.bu5::before,.bu6::before,.bu7::before,.bu8::before,.bu9::before,.bu10::before,.bu11::before,.bu12::before,.bu13::before,.bu14::before,.b-1::before,.b-2::before,.b-3::before,.b-4::before,.b-5::before,.b-6::before,.b-7::before{
+.b1::before, .b2::before, .b3::before, .b4::before, .button1::before, .button2::before, .button3::before, .button4::before, .button5::before, .button6::before, .bu1::before,.bu2::before,.bu3::before,.bu4::before,.bu5::before,.bu7::before,.bu8::before,.bu9::before,.bu10::before,.bu11::before,.bu12::before,,.but1::before,.but2::before,.but3::before,.but4::before,.but5::before,.but7::before,.but8::before,.but9::before,.but10::before,.but11::before,.but12::before,.b-1::before,.b-2::before,.b-3::before,.b-4::before,.b-5::before,.b-6::before,.b-7::before{
     content: "";
     width: 0%;
     height: 0%;
@@ -152,7 +152,7 @@ body{
 }
 
 
-.b1:hover, .b2:hover, .b3:hover, .b4:hover, .button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button6:hover, .bu1:hover,.bu2:hover,.bu3:hover,.bu4:hover,.bu5:hover,.bu6:hover,.bu7:hover,.bu8:hover,.bu9:hover,.bu10:hover,.bu11:hover,.bu12:hover,.bu13:hover,.bu14:hover,.b-1:hover,.b-2:hover,.b-3:hover,.b-4:hover,.b-5:hover,.b-6:hover,.b-7:hover{
+.b1:hover, .b2:hover, .b3:hover, .b4:hover, .button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button6:hover, .bu1:hover,.bu2:hover,.bu3:hover,.bu4:hover,.bu5:hover,.bu7:hover,.bu8:hover,.bu9:hover,.bu10:hover,.bu11:hover,.bu12:hover,.but1:hover,.but2:hover,.but3:hover,.but4:hover,.but5:hover,.but7:hover,.but8:hover,.but9:hover,.but10:hover,.but11:hover,.but12:hover,.b-1:hover,.b-2:hover,.b-3:hover,.b-4:hover,.b-5:hover,.b-6:hover,.b-7:hover{
  color: #aaa;
 }
 
@@ -207,7 +207,7 @@ body{
   display: none;
 }
 
-#悲傷, #快樂,#恐怖,#荒謬,#憤怒{
+#悲傷, #快樂,#恐怖,#荒謬,#憤怒,#孤單,#幸福,#無,#淒慘,#憂鬱,#焦急{
   /*下面是移動圖片位置*/
   position: absolute;
 	left: 1209px;
@@ -216,19 +216,14 @@ body{
 }
 
 
-#孤單,#幸福,#無,#淒慘,#憂鬱,#焦急{
-  /*下面是移動圖片位置*/
+#悲傷2, #快樂2,#恐怖2,#荒謬2,#憤怒2,#孤單2,#幸福2,#無2,#淒慘2,#憂鬱2,#焦急2{
+/*   下面是移動圖片位置 */
   position: absolute;
 	left: 1371px;
 	top: 403px;
   display: none;
 }
 
-/* .e-content,.c-content,.s-content,.p-content{
-  position:absolute;
-  width:100px;
-  height:150px;
-} */
 
 
 
