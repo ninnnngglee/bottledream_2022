@@ -7,19 +7,22 @@ const show = () => {
   
   
   var bg = new Image(); 
-  bg.src = "https://i.imgur.com/dfQS3h3.jpg";
+  bg.src = "https://user-images.githubusercontent.com/57130197/165151313-238e0b30-510a-41af-b037-8fb4e3ab9e33.jpg";
+  
+  
   
   var img1 = new Image(); //場景 
+  // img.setAttribute("crossOrigin",'Anonymous');
   //寫法就是用if判斷圖片的ID是不是被設成block
   //是的話就代表這是要被放上去的
   if(document.getElementById("認得").style.display=="block")
-    img1.src = "https://i.imgur.com/bOvVkaZ.jpg";
+    img1.src = "https://user-images.githubusercontent.com/57130197/165149838-351a06a4-1a94-44bc-8f92-e658b2d55cfb.jpg";
   else if(document.getElementById("不認得").style.display=="block")
-    img1.src = "https://i.imgur.com/6qXCF2t.jpg";
+    img1.src = "https://user-images.githubusercontent.com/57130197/165149622-262bca85-7807-48f6-b3cb-abfd1d40a89b.jpg";
   else if(document.getElementById("自然").style.display=="block")
-    img1.src = "https://i.imgur.com/pZnN3Wn.jpg";
+    img1.src = "https://user-images.githubusercontent.com/57130197/165149832-b7849dca-219d-4cdb-8cc7-eca6488ce531.jpg";
   else if(document.getElementById("沒有特別").style.display=="block")
-    img1.src = "https://i.imgur.com/3Wnn5XR.jpg";
+    img1.src = "https://user-images.githubusercontent.com/57130197/165150960-219fd058-f157-4e62-bbeb-b678c5749e14.png";
   
   var img2 = new Image(); //人物
   if(document.getElementById("重要他人").style.display=="block")
@@ -37,68 +40,68 @@ const show = () => {
   
   var img3 = new Image(); //情緒一
    if(document.getElementById("悲傷").style.display=="block")
-    img3.src = "https://i.imgur.com/kMLcwMb.jpg";
+    img3.src = "https://user-images.githubusercontent.com/57130197/165151265-82ac247f-5dea-4e50-868c-1df543fb4ee8.jpg";
   else if(document.getElementById("快樂").style.display=="block")
-    img3.src = "https://i.imgur.com/xiAqXif.jpg";
+    img3.src = "https://user-images.githubusercontent.com/57130197/165151175-d568ca51-88a0-42dd-a673-478fe423e383.jpg";
   else if(document.getElementById("恐怖").style.display=="block")
-    img3.src = "https://i.imgur.com/LBZAhk1.jpg";
+    img3.src = "https://user-images.githubusercontent.com/57130197/165151221-123dbe60-425d-43d3-b465-4c3b742acff8.jpg";
   else if(document.getElementById("荒謬").style.display=="block")
-    img3.src = "https://i.imgur.com/bH7q3t1.jpg";
+    img3.src = "https://user-images.githubusercontent.com/57130197/165151226-253df6ee-c9e3-4504-82cb-ca68ad367dfb.jpg";
   else if(document.getElementById("憤怒").style.display=="block")
-    img3.src = "https://i.imgur.com/KXAXtvt.jpg";
+    img3.src = "https://user-images.githubusercontent.com/57130197/165151302-e92b1aa4-6f83-4adf-90a8-9a3657bf2598.jpg";
   else if(document.getElementById("孤單").style.display=="block")
-    img3.src = "https://i.imgur.com/oDXCqIq.jpg";
+    img3.src = "https://user-images.githubusercontent.com/57130197/165151211-9a05f58d-0e3a-4647-b6d8-2fe122a003da.jpg";
   else if(document.getElementById("幸福").style.display=="block")
-    img3.src = "https://i.imgur.com/jxqEjiZ.jpg";
+    img3.src = "https://user-images.githubusercontent.com/57130197/165151258-fa9362c5-3067-4a92-afbc-a4798c515c60.jpg";
   else if(document.getElementById("無").style.display=="block")
-    img3.src = "https://i.imgur.com/rP4IaSz.jpg";
+    img3.src = "https://user-images.githubusercontent.com/57130197/165151278-e80f645d-b6b9-4a7f-a23e-074e4907efb2.jpg";
   else if(document.getElementById("淒慘").style.display=="block")
-    img3.src = "https://i.imgur.com/5edBgLg.jpg";
+    img3.src = "https://user-images.githubusercontent.com/57130197/165151250-1d53fcd3-e820-4eac-80c9-651878e163e6.jpg";
   else if(document.getElementById("憂鬱").style.display=="block")
-    img3.src = "https://i.imgur.com/waRdYhO.jpg";
+    img3.src = "https://user-images.githubusercontent.com/57130197/165151295-d52cbd1a-55ee-4e4b-8693-cf7d5b0248f4.jpg";
   else if(document.getElementById("焦急").style.display=="block")
-    img3.src = "https://i.imgur.com/1EEpZ7w.jpg";
+    img3.src = "https://user-images.githubusercontent.com/57130197/165151284-cc59b04a-b756-45f6-b69e-4d2ccffb1cf6.jpg";
   
   
   var img4 = new Image(); //情緒二
   if(document.getElementById("悲傷2").style.display=="block")
-    img4.src = "https://i.imgur.com/kMLcwMb.jpg";
+    img4.src = "https://user-images.githubusercontent.com/57130197/165151265-82ac247f-5dea-4e50-868c-1df543fb4ee8.jpg";
   else if(document.getElementById("快樂2").style.display=="block")
-    img4.src = "https://i.imgur.com/xiAqXif.jpg";
+    img4.src = "https://user-images.githubusercontent.com/57130197/165151175-d568ca51-88a0-42dd-a673-478fe423e383.jpg";
   else if(document.getElementById("恐怖2").style.display=="block")
-    img4.src = "https://i.imgur.com/jbMwKu5.jpg";
+    img4.src = "https://user-images.githubusercontent.com/57130197/165151221-123dbe60-425d-43d3-b465-4c3b742acff8.jpg";
   else if(document.getElementById("荒謬2").style.display=="block")
-    img4.src = "https://i.imgur.com/bH7q4t1.jpg";
+    img4.src = "https://user-images.githubusercontent.com/57130197/165151226-253df6ee-c9e3-4504-82cb-ca68ad367dfb.jpg";
   else if(document.getElementById("憤怒2").style.display=="block")
-    img4.src = "https://i.imgur.com/KXAXtvt.jpg";
+    img4.src = "https://user-images.githubusercontent.com/57130197/165151302-e92b1aa4-6f83-4adf-90a8-9a3657bf2598.jpg";
   else if(document.getElementById("孤單2").style.display=="block")
-    img4.src = "https://i.imgur.com/oDXCqIq.jpg";
+    img4.src = "https://user-images.githubusercontent.com/57130197/165151211-9a05f58d-0e3a-4647-b6d8-2fe122a003da.jpg";
   else if(document.getElementById("幸福2").style.display=="block")
-    img4.src = "https://i.imgur.com/jxqEjiZ.jpg";
+    img4.src = "https://user-images.githubusercontent.com/57130197/165151258-fa9362c5-3067-4a92-afbc-a4798c515c60.jpg";
   else if(document.getElementById("無2").style.display=="block")
-    img4.src = "https://i.imgur.com/rP4IaSz.jpg";
+    img4.src = "https://user-images.githubusercontent.com/57130197/165151278-e80f645d-b6b9-4a7f-a23e-074e4907efb2.jpg";
   else if(document.getElementById("淒慘2").style.display=="block")
-    img4.src = "https://i.imgur.com/5edBgLg.jpg";
+    img4.src = "https://user-images.githubusercontent.com/57130197/165151250-1d53fcd3-e820-4eac-80c9-651878e163e6.jpg";
   else if(document.getElementById("憂鬱2").style.display=="block")
-    img4.src = "https://i.imgur.com/waRdYhO.jpg";
+    img4.src = "https://user-images.githubusercontent.com/57130197/165151295-d52cbd1a-55ee-4e4b-8693-cf7d5b0248f4.jpg";
   else if(document.getElementById("焦急2").style.display=="block")
-    img4.src = "https://i.imgur.com/1EEpZ7w.jpg";
+    img4.src = "https://user-images.githubusercontent.com/57130197/165151284-cc59b04a-b756-45f6-b69e-4d2ccffb1cf6.jpg";
  
   var img5 = new Image(); //段落
    if(document.getElementById("因果關係").style.display=="block")
-    img5.src = "https://i.imgur.com/MIDPSVk.jpg";
+    img5.src = "https://user-images.githubusercontent.com/57130197/165150361-1a3ac6fb-156d-4fc3-83d8-851315e14640.jpg";
   else if(document.getElementById("元素過多").style.display=="block")
-    img5.src = "https://i.imgur.com/nVfIw05.jpg";
+    img5.src = "https://user-images.githubusercontent.com/57130197/165150421-5c706efb-c756-48c0-9694-d1ab17551566.jpg";
   else if(document.getElementById("長篇劇情").style.display=="block")
-    img5.src = "https://i.imgur.com/8wP5QWY.jpg";
+    img5.src = "https://user-images.githubusercontent.com/57130197/165150433-e2ea6300-6292-4c79-817f-384175d769dc.jpg";
   else if(document.getElementById("分段落").style.display=="block")
-    img5.src = "https://i.imgur.com/kZyjqt2.jpg";
+    img5.src = "https://user-images.githubusercontent.com/57130197/165150429-248df136-7d29-4adb-9597-274069862bb6.jpg";
   else if(document.getElementById("不同晚上同個夢境").style.display=="block")
-    img5.src = "https://i.imgur.com/b4ucyR8.jpg";
+    img5.src = "https://user-images.githubusercontent.com/57130197/165150411-0619545c-d92e-4ab6-b2cc-e2d4a14722af.jpg";
   else if(document.getElementById("同個晚上多個夢境").style.display=="block")
-    img5.src = "https://i.imgur.com/XCUI9Ik.jpg";
+    img5.src = "https://user-images.githubusercontent.com/57130197/165150407-23f2c0d1-2d5d-4b69-b501-ccc76ca8fec4.jpg";
   else if(document.getElementById("夢中夢").style.display=="block")
-    img5.src = "https://i.imgur.com/kaQroGn.jpg";
+    img5.src = "https://user-images.githubusercontent.com/57130197/165150437-98cf3a17-69f1-46e5-b91d-cbda5536e72b.jpg";
   
   var canvas = document.getElementById('canvas2');
   var context = canvas.getContext('2d');
@@ -699,9 +702,13 @@ const e2Function12 = () => {
   document.getElementById("悲傷2").style.display ='none'
 }
 
-// const instructions = () => {
-  
-//   document.querySelector(".container_2 .popup-guideimg").style.display='block';
-//   document.querySelector(".container_1 .popup-guideimg span ").onclick=()=>{
-//     document.querySelector(".container_1 .popup-guideimg").style.display='none'
-//   }
+
+
+document.querySelector('.b_download').addEventListener('click', function() {
+        html2canvas(document.querySelector('.container_1.popup_img'), {
+            onrendered: function(canvas) {
+                // document.body.appendChild(canvas);
+              return Canvas2Image.saveAsPNG(canvas);
+            }
+        });
+    });
