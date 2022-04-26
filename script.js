@@ -702,13 +702,40 @@ const e2Function12 = () => {
   document.getElementById("悲傷2").style.display ='none'
 }
 
+// document.querySelector('.b_download').addEventListener('click', function() {
+//         html2canvas(document.querySelector('.container_1 .popup_img #canvas2'), {
+//             onrendered: function(canvas) {
+//                 // document.body.appendChild(canvas);
+//               return Canvas2Image.saveAsPNG(canvas);
+//             }
+//         });
+//  });
+  
 
-
-document.querySelector('.b_download').addEventListener('click', function() {
-        html2canvas(document.querySelector('.container_1.popup_img'), {
-            onrendered: function(canvas) {
-                // document.body.appendChild(canvas);
-              return Canvas2Image.saveAsPNG(canvas);
-            }
-        });
-    });
+// const download = () => {
+//   function download(){
+//     const imageLink = document.creataElement('a');
+//     const canvas = document.getElementById('canvas2');
+//     imageLink.download = 'mydream.png';
+//     imageLink.href = canvas.toDataURL('image/png',1);
+//     //window.open(imageLink)
+//     // document.write('<img src=" '+imageLink+' "/>');
+//     // console.log(imageLink.href);   
+//     imageLink.click();
+//   }
+//   var canvas = etElementById("無2")
+//   this.canvas.toBlob(blob => {
+//   const a = document.createElement('a');
+//   a.download = 'image.png';
+//   a.style.display = 'none';
+//   a.href = URL.createObjectURL(blob);
+//   document.body.appendChild(a);
+//   a.click();
+//   document.body.removeChild(a);
+// });
+// }
+  
+  
+  
+// }
+//
