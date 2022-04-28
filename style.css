@@ -5,22 +5,22 @@
 
 .b_show{
     margin-left: 750px;
-    width: 150px;
+    margin-top: 870px;
+    width: 200px;
     height: 40px;
-    font-size: 10px;
+    font-size: 30px;
     text-align: center;
     cursor: pointer;
     line-height: 30px;
-    color: #000;
     background-color: transparent;
-    border: 1px solid #eee;
+    border: 1px solid #EEFC07;
     border-radius: 10px;
     position: relative;
     transition: all .3s linear;
-    color: #eee;
+    color: #EEFC07;
 }
 
-.b_download{
+/* .b_download{
     margin-left: 100px;
     width: 150px;
     height: 40px;
@@ -35,7 +35,7 @@
     position: relative;
     transition: all .3s linear;
     color: #eee;
-}
+} */
 
 body{
   height:1000px;
@@ -203,9 +203,9 @@ body{
 
 #認得, #不認得,#自然,#沒有特別 {
   /*下面是移動圖片位置*/
-  position: absolute;
-	left: 1050px;
-	top: 403px;
+position: absolute;
+	left: 1287px;
+	top: 188px;
   display: none;
 }
 
@@ -217,14 +217,16 @@ body{
 	left: 1127px;
 	top: 188px;
   display: none;
+  
 }
 
 
 #因果關係,#元素過多,#長篇劇情,#分段落, #不同晚上同個夢境,#同個晚上多個夢境,#夢中夢{
   /*下面是移動圖片位置*/
+  
   position: absolute;
-	left: 1287px;
-	top: 188px;
+	left: 1050px;
+	top: 403px;
   display: none;
 }
 

@@ -26,17 +26,17 @@ const show = () => {
   
   var img2 = new Image(); //人物
   if(document.getElementById("重要他人").style.display=="block")
-    img2.src = "https://i.imgur.com/LeJ0qn5.jpg";
+    img2.src = "https://user-images.githubusercontent.com/57130197/165590404-4186aa09-123a-454f-a69e-dd64e9ecb2ef.jpg";
   else if(document.getElementById("認識、認得、非重要他人").style.display=="block")
-    img2.src = "https://i.imgur.com/keeKHzp.jpg";
+    img2.src = "https://user-images.githubusercontent.com/57130197/165590433-4cd15157-8d06-4f59-90fb-146cefcaa275.jpg";
   else if(document.getElementById("不認識也不認得").style.display=="block")
-    img2.src = "https://i.imgur.com/mhYWZfx.jpg";
+    img2.src = "https://user-images.githubusercontent.com/57130197/165590413-dc0e86d1-d4b8-49bd-b600-9bbf12ba24bf.jpg";
   else if(document.getElementById("當事人").style.display=="block")
-    img2.src = "https://i.imgur.com/2NANyrL.jpg";
+    img2.src = "https://user-images.githubusercontent.com/57130197/165669296-eacea2ff-658f-402c-af1a-7dcf8d9bc770.jpg";
   else if(document.getElementById("旁觀者").style.display=="block")
-    img2.src = "https://i.imgur.com/itAm6X1.jpg";
+    img2.src = "https://user-images.githubusercontent.com/57130197/165590381-ab9a3cf6-37e7-4904-975b-7ec427c7fede.jpg";
   else if(document.getElementById("無人").style.display=="block")
-    img2.src = "https://i.imgur.com/khsgYip.jpg";
+    img2.src = "https://user-images.githubusercontent.com/57130197/165590419-8eb84822-d556-4d5d-aa8c-ef0894d3779d.jpg";
   
   var img3 = new Image(); //情緒一
    if(document.getElementById("悲傷").style.display=="block")
